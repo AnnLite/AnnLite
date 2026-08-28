@@ -1,0 +1,68 @@
+# Ann Lite — Ecosystem Meta-Repo Submodules
+#
+# NOTE: These submodule entries only resolve once the corresponding
+# repositories exist under the AnnLite GitHub organization (i.e. after
+# you've pushed each repo with setup-github.sh or manually). Adding a
+# submodule pointing at a repo that doesn't exist yet on the remote will
+# fail — see scripts/bootstrap.sh, which adds each submodule only if its
+# remote is reachable, so partial setups don't block the rest.
+
+[submodule ".github"]
+	path = .github
+	url = https://github.com/AnnLite/.github.git
+
+[submodule "annlite-design-system"]
+	path = annlite-design-system
+	url = https://github.com/AnnLite/annlite-design-system.git
+
+[submodule "annlite-database"]
+	path = annlite-database
+	url = https://github.com/AnnLite/annlite-database.git
+
+[submodule "annlite-backend"]
+	path = annlite-backend
+	url = https://github.com/AnnLite/annlite-backend.git
+
+[submodule "annlite-payments"]
+	path = annlite-payments
+	url = https://github.com/AnnLite/annlite-payments.git
+
+[submodule "annlite-celoht"]
+	path = annlite-celoht
+	url = https://github.com/AnnLite/annlite-celoht.git
+
+[submodule "annlite-content"]
+	path = annlite-content
+	url = https://github.com/AnnLite/annlite-content.git
+
+[submodule "annlite-web"]
+	path = annlite-web
+	url = https://github.com/AnnLite/annlite-web.git
+
+[submodule "annlite-admin"]
+	path = annlite-admin
+	url = https://github.com/AnnLite/annlite-admin.git
+
+[submodule "annlite-docs"]
+	path = annlite-docs
+	url = https://github.com/AnnLite/annlite-docs.git
+
+[submodule "annlite-security"]
+	path = annlite-security
+	url = https://github.com/AnnLite/annlite-security.git
+
+[submodule "annlite-infrastructure"]
+	path = annlite-infrastructure
+	url = https://github.com/AnnLite/annlite-infrastructure.git
+
+[submodule "annlite-mobile"]
+	path = annlite-mobile
+	url = https://github.com/AnnLite/annlite-mobile.git
+
+[submodule "annlite-invest-book"]
+	path = annlite-invest-book
+	url = https://github.com/AnnLite/annlite-invest-book.git
+
+[submodule "Ann Lite"]
+	path = Ann Lite
+	url = https://github.com/AnnLite/Ann-Lite.git
